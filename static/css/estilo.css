@@ -1,0 +1,168 @@
+
+* {
+    margin: 0;
+    border: 1;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root{
+    --primary: #8b1b1b;
+    --secondary: #ffe81d;
+    --black: #000;
+    --white: #FFF;
+}
+
+header{
+    color: var(--secondary);
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-image: url("../img/fundo.png");
+    font-size: larger;
+    font-weight: 200;
+    text-shadow: 3px 1px black;
+    
+}
+
+.atalhos{
+    height: 2rem;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.atalhos a{
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+.pagina{
+    padding-bottom: 2rem; 
+    padding-top: 2rem;
+    font-size: 1.7rem;
+}
+
+.mensagem{
+    color: red;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+section a, h1 {
+    display: flex;
+    justify-content: center;
+}
+
+form input, label {
+    display: block;
+    width: 800px;
+    height: 15px;
+    font-size: 1.5rem;
+    padding: 20px;
+    align-items: center;
+}
+
+form div{
+    display: flex;
+    width: 200px;
+    align-items: center;
+}
+
+fieldset {
+    width: 200px;
+}
+
+.botao{
+    display: flex;
+    padding-top: 1rem;
+    justify-content: end;
+
+}
+
+.bt{
+    width: 5rem;
+    height: 2rem;
+    font-size: 1.2rem;
+}
+
+.rtl {
+    font-size: 1.2rem;
+}
+
+a, input{
+    display: block;
+}
+img{
+    width: 400px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: calc(100vh - 120px - 4rem);
+}
+
+table, td, tr, th {
+    width: 1000px;
+    height: 40px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 0 1.1rem;
+    text-align: center;
+}
+
+.disciplina{
+    width: 300px;
+    height: 40px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 0 1.1rem;
+}
+
+form.label {
+    border: #000;
+}
+
+.dados {
+    width: 1000px;
+    height: 20px;
+}
+
+h3 {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+h4 {
+    padding-bottom: 1rem;
+    color: red;
+}
+
+.aula {
+    padding-top: 1rem;
+    font-size: 1.7rem;
+}
+
+footer{
+    color: white;
+    background-color: var(--primary);
+    font-size: small;
+    height: 2rem;
+    padding-right: 1rem;
+}
+
+footer h1{
+    display: flex;
+    justify-content: end;
+}

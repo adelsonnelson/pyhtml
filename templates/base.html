@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web</title>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/estilo.css')}}">
+</head>
+<body>
+    <header>
+        <section class="titulo">
+            <h1>CRUD com Flask</h1>
+        </section>
+        <section class="atalhos">
+            <a href="/">Home</a>
+    
+            <a href="/form">Formulário</a>
+            
+            <a href="/inventario">Inventário</a>
+        </section>
+    </header>
+
+    <main>
+        {% block conteudo %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <h1>&#169 copyleft</h1>
+    </footer>
+
+</body>
+</html>

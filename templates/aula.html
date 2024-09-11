@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+
+    <section class="aula">
+        <h1>Estou na Aula de Web:</h1> 
+        <p>Nome: {{dados_curso.nome}}</p>
+        <p>Curso: {{dados_curso.curso}}</p>
+        <p>Ano: {{dados_curso.ano}}</p>
+        <a href="/">Voltar</a>
+    </section>
+    
+{% endblock %}
