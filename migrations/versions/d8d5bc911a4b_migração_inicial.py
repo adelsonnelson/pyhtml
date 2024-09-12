@@ -1,8 +1,8 @@
-"""Create Table inventario
+"""Migração Inicial
 
-Revision ID: a93ada0aaa5e
+Revision ID: d8d5bc911a4b
 Revises: 
-Create Date: 2024-09-09 13:26:31.771804
+Create Date: 2024-09-12 08:50:46.602241
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = 'a93ada0aaa5e'
+revision = 'd8d5bc911a4b'
 down_revision = None
 branch_labels = None
 depends_on = None

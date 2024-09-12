@@ -84,7 +84,7 @@ def inventario_editasave():
     localizacao = request.form.get('localizacao')
     id = request.form.get('id')
     if id and nome and quantidade and localizacao:
-        inventario = Inventario.query.get('id')
+        inventario = Inventario.query.get(id)
         inventario.nome = nome
         inventario.quantidade = quantidade
         inventario.localizacao = localizacao
